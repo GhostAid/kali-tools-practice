@@ -58,12 +58,11 @@ hydra -L users.txt -P passwords.txt ssh://scanme.nmap.org
 hydra -l admin -P passwords.txt -vV ssh://scanme.nmap.org
 
 
-
-## 💣 Metasploit Framework
+## 💣** Metasploit Framework**
 
 ### What I learned:
-- Navigating Metasploit with `help` and `search`
-- Using auxiliary modules (scanners)
+- Navigating Metasploit with `help` and `search- Using auxiliary modules (scanners)
+- Using auxiliary modules(scanners)
 - SSH login scanner
 - TCP port scanner
 - Running nmap from inside Metasploit
