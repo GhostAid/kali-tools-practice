@@ -57,6 +57,19 @@ hydra -L users.txt -P passwords.txt ssh://scanme.nmap.org
 # Verbose mode (see every attempt)
 hydra -l admin -P passwords.txt -vV ssh://scanme.nmap.org
 
+
+
+## 💣 Metasploit Framework
+
+### What I learned:
+- Navigating Metasploit with `help` and `search`
+- Using auxiliary modules (scanners)
+- SSH login scanner
+- TCP port scanner
+- Running nmap from inside Metasploit
+
+### Commands I used:
+```bash
 # Start Metasploit
 sudo msfconsole
 
@@ -75,4 +88,3 @@ run
 
 # Run nmap from Metasploit
 nmap scanme.nmap.org
-
