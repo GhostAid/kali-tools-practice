@@ -1,10 +1,10 @@
-# 🛠️ Kali Linux Tools Practice
+#  Kali Linux Tools Practice
 
 My hands-on practice with professional penetration testing tools on Kali Linux 2026.1
 
 ---
 
-## 📡 **Nmap - Network Scanner**
+##  Nmap - Network Scanner
 
 ### What I learned:
 - Port scanning with `nmap scanme.nmap.org`
@@ -17,7 +17,7 @@ My hands-on practice with professional penetration testing tools on Kali Linux 2
 
 ---
 
-## 📡 **Wireshark - Packet Analysis**
+##  Wireshark - Packet Analysis
 
 ### What I captured:
 - **DHCP packets** — computers asking for IP addresses
@@ -37,7 +37,7 @@ My hands-on practice with professional penetration testing tools on Kali Linux 2
 
 ---
 
-## 🔑 **Hydra - Password Cracking**
+##  Hydra - Password Cracking
 
 ### What I learned:
 - Brute-force attacks with wordlists
@@ -56,9 +56,11 @@ hydra -L users.txt -P passwords.txt ssh://scanme.nmap.org
 
 # Verbose mode (see every attempt)
 hydra -l admin -P passwords.txt -vV ssh://scanme.nmap.org
+```
 
 
-## 💣** Metasploit Framework**
+
+##  Metasploit Framework
 
 ### What I learned:
 - Navigating Metasploit with `help` and `search- Using auxiliary modules (scanners)
@@ -71,7 +73,7 @@ hydra -l admin -P passwords.txt -vV ssh://scanme.nmap.org
 ```bash
 # Start Metasploit
 sudo msfconsole
-
+```
 # SSH scanner
 use auxiliary/scanner/ssh/ssh_login
 set RHOSTS scanme.nmap.org
